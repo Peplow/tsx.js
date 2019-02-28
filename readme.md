@@ -9,6 +9,8 @@ https://stackoverflow.com/questions/30430982/can-i-use-jsx-without-react-to-inli
 # Example
 
 ``` typescript
+import {React, jsx, jsxRegister} from './tsx.js'
+
 class customElement extends HTMLElement {
     constructor() {
     super();
